@@ -1,0 +1,70 @@
+/*Bernice Chen
+    stylesheet.cc
+    1/16/2023*/
+
+body {
+    background-position: center center;
+    background-color: ivory;
+    margin-top: 10px;
+    font-size: 20px;
+    border: solid rosybrown;
+    border-width: 16px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Style Rules for header */
+
+header {
+    width: 1000px;
+    line-height: 1.5;
+    margin: auto;
+    text-align: justify;
+}
+
+header::first-line {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 2em;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.project {
+    width: 1000px;
+    line-height: 1.5;
+    margin: auto;
+    text-align: justify;
+}
+
+.work {
+    width: 1000px;
+    line-height: 1.5;
+    margin: auto;
+    text-align: justify;
+}
+
+h2 {
+    color: rosybrown;
+}
+
+.education {
+    width: 1000px;
+    line-height: 1.5;
+    margin: auto;
+    text-align: justify;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+footer {
+    width: 1000px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
